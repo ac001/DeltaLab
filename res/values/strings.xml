@@ -2,4 +2,6 @@
 <resources>
     <string name="hello">Hello World, DeltaLabActivity!</string>
     <string name="app_name">DeltaLab</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome to GTLS </string>
 </resources>

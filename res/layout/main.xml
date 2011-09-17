@@ -4,9 +4,10 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+    			android:layout_height="wrap_content" 
+    			android:text="@string/welcome" 
+    			android:id="@+id/tv_welcome" 
+    			android:layout_width="match_parent"></TextView>
+<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_horizontal" android:text="@string/login" android:id="@+id/b_login"></Button>
 </LinearLayout>
