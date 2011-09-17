@@ -1,2 +1,4 @@
-bin/com/uk/geo/deltalab/*.*
+bin/
+*.class
+
 

@@ -1,31 +1,29 @@
 package com.uk.geo.deltalab;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
-import android.view.View;
-import android.view.View.OnClickListener;
+//import android.widget.Button;
+//import android.view.View;
+//import android.view.View.OnClickListener;
 //import android.widget.Toast;
 
-//import com.uk.geo.deltalab.DeltaLabLogin;
 
-public class DeltaLabActivity extends Activity {
+public class DeltaLabLogin extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
                
-        setContentView(R.layout.main);
+        setContentView(R.layout.login);
         
+        /*
         final Button button = (Button) findViewById(R.id.b_login);
         button.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 // Perform action on clicks
-            	Intent intent = new Intent(null, com.uk.geo.deltalab.DeltaLabLogin.class);
-            	startActivity(intent);
+                Toast.makeText(DeltaLabActivity.this, "Beep Bop", Toast.LENGTH_SHORT).show();
             }
         });
-        
+        */
     }
 }
