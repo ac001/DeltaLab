@@ -9,5 +9,8 @@
     			android:text="@string/welcome" 
     			android:id="@+id/tv_welcome" 
     			android:layout_width="match_parent"></TextView>
+    <ImageView android:id="@+id/imageView1" android:src="@drawable/banner" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
 <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_horizontal" android:text="@string/login" android:id="@+id/b_login"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/b_ping" android:text="@string/ping_server" android:layout_width="match_parent"></Button>
+<ProgressBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pbar_welcome"></ProgressBar>
 </LinearLayout>

@@ -5,4 +5,5 @@
     <string name="login">Login</string>
     <string name="welcome">Welcome to GTLS </string>
     <string name="cancel">Cancel</string>
+    <string name="ping_server">Ping Server</string>
 </resources>
